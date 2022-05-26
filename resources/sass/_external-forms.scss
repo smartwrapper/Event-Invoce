@@ -1,0 +1,200 @@
+
+// Datepicker
+.mx-datepicker {
+    font-family: inherit !important;
+    padding: 0 !important;
+    width: 100% !important;
+
+    .mx-input-wrapper {
+        position: initial !important;
+
+        .mx-input {
+            border: none;
+            box-shadow: none;
+            height: auto;
+            padding: 1.5rem 2rem;
+        }
+    }
+}
+.mx-datepicker-sidebar {
+    width: 15rem;
+}
+.mx-datepicker-sidebar+.mx-datepicker-content {
+    margin-left: 15rem;
+}
+
+// Multiselect
+.multiselect {
+    padding: 0 !important;
+    display: inline-table !important;
+
+    // &__content-wrapper {
+    //     max-height: 250px !important;
+    //     height: 250px !important;
+    //     overflow: auto !important;
+    // }
+
+    &__select {
+        top: 6px !important;
+    }
+
+    &__tags {
+        padding: 1.5rem 3rem 0.7rem 1.5rem !important;
+        border-radius: 0 !important;
+        border: none !important;
+        background: none !important;
+        height: auto !important;
+    }
+}
+
+// Image cropper
+.croppa-container {
+    background: lighten($brand-color, 38%);
+    border: none;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+    }
+    
+    &.croppa-thumbnail {
+        width: 260px;
+        height: 260px;
+    }
+
+    &.croppa-cover {
+        width: 486px;
+        height: 276px;
+    }
+
+    svg {
+        position: absolute !important;
+        z-index: 999 !important;
+        top: 0 !important;
+        right: 0 !important;
+    }
+}
+
+.g-map-wrapper {
+    min-height: 500px;
+}
+
+// ck editor
+.ck.ck-editor__main>.ck-editor__editable {
+    border-color: #dcdcdc !important;
+    min-height: 128px !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+.ck.ck-toolbar {
+    border: none !important;
+    background: transparent !important;
+    
+    &__separator {
+        background: transparent !important;
+    }
+
+}
+
+// vue-select
+.style-chooser .vs__search::placeholder,
+.style-chooser .vs__dropdown-toggle {
+    width: 100%;
+    height: 54px;
+    padding: 1rem 1rem;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #868686;
+    background-color: #f7f7f7;
+    background-image: none;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.style-chooser .vs__dropdown-toggle .vs__selected {
+    line-height: inherit;
+    margin: inherit;
+}
+
+.style-chooser.vs--single.vs--open .vs__selected {
+    left: 2% !important;
+    top: 15% !important;
+}
+
+.style-chooser .vs__clear,
+.style-chooser .vs__open-indicator {
+    fill: #394066;
+}
+
+// datatable
+.dataTables_wrapper .row {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0; }
+
+.dataTables_wrapper .top {
+    margin-bottom: 6px;
+    position: relative; }
+
+.dataTables_wrapper .bottom {
+    margin-top: 6px; }
+
+.dataTables_wrapper .top:after, .dataTables_wrapper .bottom:after {
+    position: relative;
+    clear: both;
+    display: block;
+    content: ''; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0;
+    margin-left: 0;
+    border: 0; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    border: 0; }
+
+.dataTables_wrapper tfoot {
+    display: none; }
+
+table.dataTable.no-footer{
+    border-bottom:1px solid #f1f1f1;
+}
+
+.dataTables_wrapper {
+    select.input-sm {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .dataTables_length {
+        margin-bottom: 2rem;
+    }
+}
+
+.dataTables_paginate {
+    .pagination {
+        margin: 0;
+        float: right;
+    }
+}
+.dataTables_paginate .pagination > .active > a {
+    background: $brand-color;
+}
+
+.dataTables_info {
+    background: #eee;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+}
+
+/* Tinymce branding */
+.mce-branding {
+    display: none !important;
+}

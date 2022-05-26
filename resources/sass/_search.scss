@@ -1,0 +1,158 @@
+.main-search-container {
+    .lgx-inner {
+        padding: 4rem 0 4rem 0;
+    }
+}
+.main-search {
+    border: 4px solid $black-color;
+    border-radius: 12px;
+    box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+
+    .input-group {
+
+        &-addon {
+            padding: 0 0 3px 0;
+            font-size: 2rem;
+            margin: 0;
+            line-height: 1;
+            color: $brand-color;
+            background-color: $body-bg-deep;
+            border: 1px solid $body-bg-deep;
+            border-radius: 12px;
+        }
+
+    }
+
+    .form-control {
+        width: 100%;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+        padding-left: 3px;
+        background-color: $body-bg-deep;
+
+        &:focus {
+            border: none;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+
+    .event-search {
+        width: 76%;
+        height: 6rem;
+    }
+    .date-search {
+        width: 35%;
+        height: 6rem;
+    }
+    .lgx-btn {
+        padding: 1rem 6.7rem;
+        margin-top: 8px;
+    }
+}
+
+/* -----------------------------------------------------------------------
+     Medium devices (desktops, UP TO 1199px~992px)
+ ------------------------------------------------------------------------*/
+@media (max-width : $screen-md-max) {
+    .main-search {
+        .input-group {
+            &-addon {
+                padding: 0 8px 0px 12px;
+            }
+        }
+        .event-search {
+            width: 100%;
+            height: auto;
+        }
+        .date-search {
+            width: 100%;
+            height: auto;
+        }
+        .lgx-btn {
+            padding: 1rem 6.7rem;
+            margin: 8px 3% 8px 3%;
+            width: 94%;
+        }
+    }
+}
+
+/* ----------------------------------------------------------------------
+     Small devices (tablets, UP TO 991px~768px)
+ -----------------------------------------------------------------------*/
+@media (max-width : $screen-sm-max) {
+    .main-search {
+        .input-group {
+            &-addon {
+                padding: 0 8px 0px 12px;
+            }
+        }
+        .event-search {
+            width: 100%;
+            height: auto;
+        }
+        .date-search {
+            width: 100%;
+            height: auto;
+        }
+        .lgx-btn {
+            padding: 1rem 6.7rem;
+            margin: 8px 3% 8px 3%;
+            width: 94%;
+        }
+    }
+}
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 767px)
+ ----------------------------------------------------------------------*/
+@media (max-width : $screen-xs-max) {
+    .main-search {
+        .input-group {
+            &-addon {
+                padding: 0 8px 0px 12px;
+            }
+        }
+        .event-search {
+            width: 100%;
+            height: auto;
+        }
+        .date-search {
+            width: 100%;
+            height: auto;
+        }
+        .lgx-btn {
+            padding: 1rem 6.7rem;
+            margin: 8px 3% 8px 3%;
+            width: 94%;
+        }
+    }
+}/*767 END*/
+    
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 480px) {
+    .main-search {
+        .input-group {
+            &-addon {
+                padding: 0 8px 0px 12px;
+            }
+        }
+        .event-search {
+            width: 100%;
+            height: auto;
+        }
+        .date-search {
+            width: 100%;
+            height: auto;
+        }
+        .lgx-btn {
+            padding: 1rem 6.7rem;
+            margin: 8px 3% 8px 3%;
+            width: 94%;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.Cookie--gdpr {
+    background: $black-color;
+    padding: 2rem;
+    box-shadow: 0 -10px 20px -12px rgba(0, 0, 0, 0.42), 
+    0 -3px 20px 0px rgba(0, 0, 0, 0.12), 
+    0 -8px 10px -5px rgba(0, 0, 0, 0.2);
+
+    .Cookie__content {
+        color: #ccc;
+    }
+
+    .Cookie__button {
+        overflow: hidden;
+        border: none;
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        color: $white-color;
+        font-weight: 400;
+        background: $white-color;
+        margin: 0 auto;
+        font-family: $lgx-heading-font;
+        font-size: 14px;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        letter-spacing: .1rem;
+        background: $brand-color;
+
+        @include transition-duration($duration: 0.3s);
+        box-shadow: 0 8px 6px -6px rgba(50, 51, 51, 0.4);
+
+        &:hover {
+            color: $white-color;
+            border-radius: 16px;
+            @include transition-duration($duration: 0.3s);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 14px;
+            //height: 490%;
+            height: 200px;
+            //height: 879%;
+            //width: 152%;
+            width: 200px;
+            background: $black-color;
+            transition: all .5s ease-in-out;
+            transform: translateX(-98%) translateY(-25%) rotate(45deg);
+            opacity: .15;
+            //border-radius: 25%;
+        }
+
+        &:hover:after {
+            transform: translateX(-9%) translateY(-25%) rotate(45deg);
+            height: 604%;
+            width: 300px;
+            left: 43px;
+            border-radius: 100%;
+        }
+    }
+}

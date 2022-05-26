@@ -1,0 +1,9 @@
+// main wrapper min-height
+.main-wrapper {
+    min-height: 85vh;
+}
+
+.row:after, .row:before {
+    content: " ";
+    display: none!important;
+}

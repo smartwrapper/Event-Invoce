@@ -1,0 +1,49 @@
+.lgx-badge {
+    border-radius: 18px;
+    text-align: center;
+    position: relative;
+    color: $white-color;
+    font-weight: 600;
+    font-size: 1rem;
+    background: $brand-color;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: inline-block;
+    
+    @include transition-duration($duration: 0.3s);
+
+    &-primary {
+        background: $brand-color;
+    }
+
+    &-info {
+        background: $blue;
+    }
+
+    &-success {
+        background: $green;
+    }
+
+    &-danger {
+        background: $red;
+    }
+
+    &-warning {
+        background: $orange;
+    }
+    
+    &-online {
+        background: $teal;
+    }
+    
+    &-mute {
+        background: $mute;
+    }
+}
+
+.lgx-badge-small {
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.2rem .6rem 0.2rem .6rem;
+}

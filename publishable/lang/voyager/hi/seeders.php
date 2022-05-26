@@ -1,0 +1,93 @@
+<?php
+
+return [
+    'data_rows'  => [
+        'author'           => 'लेखक',
+        'avatar'           => 'अवतार',
+        'body'             => 'शरीर',
+        'category'         => 'श्रेणी',
+        'created_at'       => 'बनाया गया',
+        'display_name'     => 'प्रदर्शन नाम',
+        'email'            => 'ईमेल',
+        'excerpt'          => 'अंश',
+        'featured'         => 'फीचर्ड',
+        'id'               => 'आईडी',
+        'meta_description' => 'मेटा विवरण',
+        'meta_keywords'    => 'मेटा कीवर्ड्स',
+        'name'             => 'नाम',
+        'order'            => 'ऑर्डर',
+        'page_image'       => 'पेज इमेज',
+        'parent'           => 'जनक',
+        'password'         => 'पासवर्ड',
+        'post_image'       => 'पोस्ट इमेज',
+        'remember_token'   => 'टोकन को याद रखें',
+        'role'             => 'भूमिका',
+        'seo_title'        => 'SEO Title',
+        'slug'             => 'स्लग',
+        'status'           => 'स्थिति',
+        'title'            => 'शीर्षक',
+        'updated_at'       => 'Updated At',
+    ],
+    'data_types' => [
+        'category' => [
+            'singular' => 'श्रेणी',
+            'plural'   => 'श्रेणियाँ',
+        ],
+        'menu'     => [
+            'singular' => 'मेनू',
+            'plural'   => 'मेनू',
+        ],
+        'page'     => [
+            'singular' => 'पृष्ठ',
+            'plural'   => 'पृष्ठ',
+        ],
+        'post'     => [
+            'singular' => 'पद',
+            'plural'   => 'पद',
+        ],
+        'role'     => [
+            'singular' => 'भूमिका',
+            'plural'   => 'भूमिका',
+        ],
+        'user'     => [
+            'singular' => 'उपयोगकर्ता',
+            'plural'   => 'उपयोगकर्ता',
+        ],
+    ],
+    'menu_items' => [
+        'bread'        => 'ब्रैड',
+        'categories'   => 'श्रेणियाँ',
+        'compass'      => 'कम्पास',
+        'dashboard'    => 'डैशबोर्ड',
+        'database'     => 'डेटाबेस',
+        'media'        => 'मीडिया',
+        'menu_builder' => 'मेनू बिल्डर',
+        'pages'        => 'पृष्ठ',
+        'posts'        => 'पोस्ट',
+        'roles'        => 'भूमिका',
+        'settings'     => 'सेटिंग',
+        'tools'        => 'उपकरण',
+        'users'        => 'उपयोगकर्ता',
+    ],
+    'roles'      => [
+        'admin' => 'व्यवस्थापक',
+        'user'  => 'सामान्य उपयोगकर्ता',
+    ],
+    'settings'   => [
+        'admin' => [
+            'background_image'           => 'एडमिन बैकग्राउंड इमेज',
+            'description'                => 'व्यवस्थापक विवरण',
+            'description_value'          => 'मल्लाह में आपका स्वागत है। लारवेल के लिए मिसिंग एडमिन ',
+            'google_analytics_client_id' => 'Google Analytics क्लाइंट ID (व्यवस्थापक डैशबोर्ड के लिए प्रयुक्त)',
+            'icon_image'                 => 'व्यवस्थापक आइकन छवि',
+            'loader'                     => 'व्यवस्थापक लोडर',
+            'title'                      => 'व्यवस्थापक शीर्षक',
+        ],
+        'site'  => [
+            'description'                  => 'साइट विवरण',
+            'google_analytics_tracking_id' => 'Google Analytics ट्रैकिंग ID',
+            'logo'                         => 'साइट लोगो',
+            'title'                        => 'साइट शीर्षक',
+        ],
+    ],
+];
